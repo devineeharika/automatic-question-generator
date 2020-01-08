@@ -17,4 +17,4 @@ at first we split the text into proper sentences for that we have done some text
 later we generate openie for each sentence.
 then we load spacy and then apply to the text.
 then we create a dictionary in which key is token and value is ner.
-if subject in openie and key in dictionary is equal then we create a question y replacing subject with question tag and combined it with relation and object and the respecive subject will be answer.
+if subjects in openie and keys in dictionary are equal then we create a question by replacing subject with question tag and combined it with relation and object and the respecive subject will be answer.
